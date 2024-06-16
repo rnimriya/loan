@@ -1,0 +1,532 @@
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
+  <head>
+     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">    
+    <title>PM Mudra | Instant Loan Service</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">   
+    <meta name="robots" content="noindex, nofollow" />
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="manifest" href="img/site.webmanifest">
+    <link rel="mask-icon" href="img/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+<style>
+
+.container{ max-width:900px;}
+.carousel-item{ height: 18rem !important;}
+.carousel{ margin-bottom: 0 !important;}
+ body{padding-top: 0 !important;   font-family: "Inter", sans-serif;  font-optical-sizing: auto;  font-weight:400; font-style: normal; color:#414141; margin: 0;}
+.bd-placeholder-img {font-size: 1.125rem;text-anchor: middle;-webkit-user-select: none;-moz-user-select: none;user-select: none;}
+.blk{ color: #000;}
+.blue{ background: #1e0186;}
+.pink{ background: #110050;}
+.grey{ background: #edfdff; padding:60px 0px; text-align: center;}
+.aco{ background:rgb(248 249 250) !important; margin-bottom: 40px;}
+
+@media (min-width: 768px) 
+{
+.bd-placeholder-img-lg {font-size: 3.5rem;}
+.w-c-form{padding: 25px 20px;}
+}
+
+.accordion-header button{ border-radius: 14px !important;}
+.w-c-form {padding: 25px 40px;border: 1px solid rgba(0, 92, 141, 0.1); border-radius: 10px;padding-bottom: 40px;background-color: #fff;  position: relative; bottom:40px;}
+.accordion-item{margin-bottom: 20px !important;}
+.accordion-button:not(.collapsed),.accordion-button:focus {outline: none;border-color: transparent;box-shadow: none; }
+.accordion-button::after {width: 11px;height: 11px;border-radius: 100%;background-color: var(--bs-success);background-image: none !important;}
+.accordion-button.collapsed::after {background-color: var(--bs-gray-300);}
+
+.btn{height: 46px;flex-shrink: 0;border-radius: 24px;background:  #f60;box-shadow: 0 4px 8px #00000014; justify-content: center;align-items: center;color: #fff;position: relative; width: 84vw;border: 1px solid #f60;}
+.btn:hover{background:  rgb(230, 93, 1);  border: 1px solid #f60;}
+
+.stpl-lender {margin-top: 40px !important;}
+.stpl-section-3 {font-size: 24px;line-height: 36px;font-weight: 700;color: #000;margin-bottom: 48px;}
+.choose-il {background-color: #280070;border-radius: 8px;padding: 26px;margin-bottom: 28px;height: 130px;}
+.choose-il ul {list-style: none;padding-left: 0;text-align: left;display: flex;align-items: center;}
+.choose-il ul li {margin-right: 30px;}
+.mr-0, .mx-0 {margin-right: 0 !important;}
+.il-p1 {font-size: 18px;line-height: 28px;font-weight: 700;color: #fff;margin-bottom: 6px;}
+.il-p2 {font-size: 14px;line-height: 20px;font-weight: 500;color: #e6e6e6;margin-bottom: 0;}
+.stpl-section-2 {font-size: 24px;line-height: 24px;font-weight: 700;color: #000;margin-bottom: 16px;margin-top: 48px;}
+.stpl-para1 {font-size: 16px;line-height: 22px;}
+.partner-ul {list-style-type: none;display: flex;margin: 0;padding: 0;margin-top: 80px;}
+.partner-ul li {display: inline-flex;background-color: #fff;padding: 15px 30px;border: 1px solid #f1f5ff;border-radius: 8px;height: 80px;margin-right: 20px;align-items: center;width: 210px;margin-bottom: 25px;justify-content: center;align-items: center;}
+.d-none {display: none !important;}
+
+
+
+/* This class is defining the styling for a grid container. */
+.testimonial-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+ 
+/* This class is defining the styling for the container element that holds each
+testimonial in a testimonial grid. */
+.testimonial-container {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+ 
+/* This class is defining the styling for the avatar image */
+.testimonial-avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto 20px;
+}
+ 
+.testimonial-avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+ 
+.testimonial-text {
+    margin-bottom: 20px;
+}
+ 
+.testimonial-name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333333;
+}
+ 
+.testimonial-role {
+    font-size: 16px;
+    color: #666666;
+}
+ 
+/* This media query in CSS that targets screens with a maximum width of 600 pixels. */
+@media screen and (max-width: 600px) {
+    .testimonial-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
+</style>
+
+  </head>
+  <body>
+    <header>
+      <nav  class="navbar navbar-expand-md ">
+        <div class="container text-center">
+            <a class="navbar-brand text-center" href="index.html"><img src="img/loan.png" ></a>        
+        </div>
+    </nav>
+    </header>
+
+<main>
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>      
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item blue active">            
+            <div class="container" >
+              <div class="carousel-caption">
+                <h2>Instant approval on loans</h2>
+                <p>Receive money in your bank faster than your grocery delivery</p>
+                <p>
+                    <span><span>&#9745;</span> Loan amount of upto ₹5 Lacs</span><br>
+                    <span><span>&#9745;</span> 100% Online Process</span>
+                </p>
+               
+              </div>
+            </div>
+        </div>     
+        <div class="carousel-item pink">            
+            <div class="container">
+                <div class="carousel-caption">
+                    <h2>Unexpected expenses need instant solutions</h2>
+                    <p>Receive money in your bank faster than your grocery delivery</p>                   
+                    <p>
+                        <span><span>&#9745;</span> Instant Approval on Loan</span><br>
+                        <span><span>&#9745;</span> Simple online application</span>
+                    </p>
+                  </div>
+            </div>
+        </div>     
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- Check Eligibility -->
+
+  <section style="background-color: #f9ffff;">    
+    <div class="container">        
+        <div class="w-c-form shadow-lg">
+            <div class="container text-center mb-4 ">
+                <h2 class="mb-2">Check eligibility in 2 minutes</h2>
+                <p>Offers from 50+ RBI Approved Banks</p>
+            </div>
+            <form class="needs-validation mt-4">
+                <div class="row">
+                    <div class="col-sm-6 mb-2">
+                        <label for="fullName" class="form-label">Full Name*</label>
+                        <input type="text" class="form-control" id="fullName" placeholder="" value="" required="">
+                        <div class="invalid-feedback">
+                          Valid first name is required.
+                        </div>
+                      </div>
+                      <div class="col-sm-6 mb-2">
+                        <label for="phoneNumber" class="form-label">Phone Number*</label>
+                        <input type="text" class="form-control" id="phoneNumber" placeholder="" value="" required="">
+                        <div class="invalid-feedback">
+                          Valid last name is required.
+                        </div>
+                      </div>
+                      <div class="col-sm-6 mb-4">
+                        <label for="emailAddress" class="form-label">Email*</label>
+                        <input type="text" class="form-control" id="emailAddress" placeholder="" value="" required="">
+                        <div class="invalid-feedback">
+                          Valid first name is required.
+                        </div>
+                      </div>
+                      <div class="col-sm-6 mb-4">
+                        <label for="loanAmount" class="form-label">Required Amount*</label>
+                        <input type="text" class="form-control" id="loanAmount" placeholder="" value="" required="">
+                        <div class="invalid-feedback">
+                          Valid first name is required.
+                        </div>
+                      </div>
+                </div>
+                <button class="w-100 btn btn-success btn-lg" type="submit">Proceed</button>
+            </form>
+        </div>
+    </div>
+  </section>
+
+  <section class="mb-4" style="background-color: #f9f9f9;">
+    <div class="container px-4 py-5" id="featured-3">
+        <h2 class="pb-2 text-center">How to apply</h2>
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3 text-center">
+          <div class="feature col">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3">
+              <img src="img/seo.png" alt="" >
+            </div>
+            
+            <h4>Personal Details</h4>
+            <p>Enter your personal, business & bank details to get a fair loan offer</p>
+         
+          </div>
+          <div class="feature col">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3">
+              <img src="img/offer.png" alt="" >
+            </div>
+            
+            <h4>Accept Offer</h4>
+            <p>Accept the loan offer & complete your documentation & KYC</p>
+           
+          </div>
+          <div class="feature col">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center   fs-2 mb-3">
+              <img src="img/funding.png" alt="" >
+            </div>
+            <h4>Receive Funds</h4>
+            <p>Choose from flexible repayment options and start receiving funds</p>
+            
+          </div>
+        </div>
+      </div>
+  </section>
+
+
+
+
+ <!--stpl section 2-->
+<section class="stpl-section2">
+    <div class="container">
+        <div class="animation-element row align-items-end">
+            <div class="col-lg-12 col-md-12">
+                <div class="stpl-section-3 text-center">Why Choose Us?</div>
+
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="choose-il">
+                            <ul>
+                                <li><img src="https://cdnapp.indialends.com/newstpl/images/c-il-1.svg"   alt="" class="lazy"></li>
+                                <li class="mr-0">
+                                    <p class="il-p1">Discover with ease</p>
+                                    <p class="il-p2">Compare Pre-qualified offers from 70+ RBI Approved lenders</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="choose-il">
+                            <ul>
+                                <li><img src="https://cdnapp.indialends.com/newstpl/images/c-il-2.svg"   alt="" class="lazy"></li>
+                                <li class="mr-0">
+                                    <p class="il-p1">Unlock incredible savings</p>
+                                    <p class="il-p2">Select offers with lowest interest rates and processing</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="choose-il">
+                            <ul>
+                                <li><img src="https://cdnapp.indialends.com/newstpl/images/c-il-3.svg"   alt="" class="lazy"></li>
+                                <li class="mr-0">
+                                    <p class="il-p1">Ultimate convenience</p>
+                                    <p class="il-p2">Simple 4 step digital process to get instant approvals and quick bank transfers</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="choose-il">
+                            <ul>
+                                <li><img class="me-1 rounded-3 py-1" src="https://cdnapp.indialends.com/newstpl/images/c-il-4.svg"   alt="" class="lazy"></li>
+                                <li class="mr-0">
+                                    <p class="il-p1">Our commitment to transparency</p>
+                                    <p class="il-p2">No hidden charges, no hidden information</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+    </div>
+</section>
+
+<section>
+        <div class="container mb-4">
+            <div class="stpl-section-2 text-center">Our Partners</div>
+            <p class="stpl-para1 text-center">We collaborate with the best and biggest in the banking and <br class="d-none d-sm-block">financial world to get you relevant products at great rates</p>                                            </div>
+        </div>
+
+        <div class="container">
+            <div class="row mb-4">
+                <div class="col-6 col-md-3 mb-4 text-center ">
+                    <img class="me-1 rounded-3 border  py-1" src="img/logo-1.jpg"  alt="" class="lazy">  
+                </div>
+                <div class="col-6 col-md-3 mb-4 text-center ">
+                    <img class="me-1 rounded-3 border  py-1" src="img/logo-2.jpg"   alt="" class="lazy">  
+                </div>
+                <div class="col-6 col-md-3 mb-4 text-center ">
+                    <img class="me-1 rounded-3 border  py-1" src="img/logo-3.jpg"   alt="" class="lazy">  
+                </div>
+                <div class="col-6 col-md-3 mb-4 text-center ">
+                    <img class="me-1 rounded-3 border  py-1" src="img/logo-4.jpg"   alt="" class="lazy">  
+                </div>
+                <div class="col-6 col-md-3 mb-4 text-center ">
+                    <img class="me-1 rounded-3 border  py-1" src="img/logo-5.jpg"   alt="" class="lazy">  
+                </div>
+                <div class="col-6 col-md-3 mb-4 text-center ">
+                    <img class="me-1 rounded-3 border  py-1" src="img/logo-6.jpg"   alt="" class="lazy">  
+                </div> 
+                <div class="col-6 col-md-3 mb-4 text-center ">
+                    <img class="me-1 rounded-3 border  py-1" src="img/logo-7.jpg"   alt="" class="lazy">  
+                </div>
+                <div class="col-6 col-md-3 mb-4 text-center ">
+                    <img class="me-1 rounded-3 border  py-1" src="img/logo-8.jpg"   alt="" class="lazy">  
+                </div>                     
+            </div>
+           
+        </div>
+ 
+</section>
+
+<section class="aco">
+    <div class="container p-4 bg-light">
+        <h3 class="mb-3 text-center mb-4">Frequently Asked Questions</h3>
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item rounded-3 border-0 shadow mb-2">
+          <h2 class="accordion-header">
+            <button class="accordion-button border-bottom collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                What is a small amount personal loan?
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              <p>Also known as a short-term loan, a small amount personal loan is a type of loan of up to ₹2 lacs that is scheduled to be repaid in a short period. This could be a year or more, but not more than 2 years. A small amount personal loan is generally taken to finance the short-term money requirements.</p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item rounded-3 border-0 shadow mb-2">
+          <h2 class="accordion-header">
+            <button class="accordion-button border-bottom collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                Who should take a short-term loan?
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              <p>short-term loan can be taken by anyone who wants to meet his/her personal/professional needs. It could be taken by businessmen to meet working capital requirements. Working capital requirements include maintaining a cash flow and financing funds in a case of temporary shortage. In fact, salaried professionals and self-employed individuals too can apply for small amount personal loans to finance for personal needs such as purchasing consumer appliances and electronics such as laptops and smartphones. Even though these are short-term loan examples, anyone who meets the short-term personal loan eligibility can apply for a short-term loan.</p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item rounded-3 border-0 mb-2 shadow">
+          <h2 class="accordion-header">
+            <button class="accordion-button border-bottom collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                What are the features of a short-term loan or small amount personal loan?
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+                <p>Also known as a short-term loan, a small amount personal loan is a type of loan of up to ₹2 lacs that is scheduled to be repaid in a short period. This could be a year or more, but not more than 2 years. A small amount personal loan is generally taken to finance the short-term money requirements.</p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item rounded-3 border-0 mb-2 shadow">
+            <h2 class="accordion-header">
+              <button class="accordion-button border-bottom collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                What are the benefits of Small amount personal loan?
+              </button>
+            </h2>
+            <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <p>short-term loan is an easy way to meet any shortcomings in funds when in dire need. Apart from being an instant personal loan, there are a lot of other benefits of small amount personal loan. Some of them are:</p>
+                <ul class="pl-5 faq-li">
+                    <li>Easy Access to Money</li>
+                    <li>Quick Approval</li>
+                    <li>Attractive Interest Rates</li>
+                    <li>100% Transparent process</li>
+                    <li>Flexible repayment option(s)</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item rounded-3 border-0 mb-2 shadow">
+            <h2 class="accordion-header">
+              <button class="accordion-button border-bottom collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                Why take a short-term personal loan from Indialends?
+              </button>
+            </h2>
+            <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <p>PM Mudra is an online lending portal aiming to improve the financial marketplace by making credit products such as loan easily accessible to applicants. With easy loan application process, PM Mudra promises to provide instant approval and fast disbursal to individuals.</p>
+                <p>Here are few other reasons to choose PM Mudra for short-term loans online:</p>
+                <ul class="pl-5 faq-li">
+                    <li>Instant Approval</li>
+                    <li>EMI starting from ₹1400</li>
+                    <li>Cash within a few days</li>
+                    <li>Flexible repayment option</li>
+                    <li>Minimum documentation</li>
+                    <li>Loan offers for individuals with salary starting ₹10,000</li>
+                    <li>Pre-active customer care support</li>
+                </ul>
+                <p>PM Mudra focusses to make loan process easy and simple for all its customers.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item rounded-3 border-0 mb-2 shadow">
+            <h2 class="accordion-header">
+              <button class="accordion-button border-bottom collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                What are the documents required for small amount personal loan?
+              </button>
+            </h2>
+            <div id="flush-collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <p>The documents required for online short-term loans at lowest rates are:</p>
+                <ul class="pl-5 faq-li">
+                    <li>Proof of Identity(Aadhaar/PAN card/Voter ID/Passport)</li>
+                    <li>Proof of Age(Aadhaar/Driving License/Voter ID/Passport)</li>
+                    <li>Bank statement for last 6 months</li>
+                    <li>Proof of Income(salary slips of last 3 months or last year ITR or income declaration)</li>
+                    <li>Passport-sized photograph(s)</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item rounded-3 border-0 mb-2 shadow">
+            <h2 class="accordion-header">
+              <button class="accordion-button border-bottom collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+                What are the eligibility criteria for a small amount personal loan?
+              </button>
+            </h2>
+            <div id="flush-collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <p>The following conditions need to be met in order to apply for short-term loans online:</p>
+                <ul class="pl-5 faq-li">
+                    <li>The applicant must be at least 25 years old.</li>
+                    <li>The applicant must be a citizen of India.</li>
+                    <li>The applicant must have a good credit score.</li>
+                    <li>The applicant must have a valid Indian bank account</li>
+                    <li>The applicant must have a minimum of ₹10000 as monthly income</li>
+                </ul>
+                <p>The other conditions for small amount personal loan eligibility vary from lender to lender. It also depends on the amount you wish to get, the loan tenure, and your capacity to repay.</p>
+              </div>
+            </div>
+          </div>
+      </div>
+  </div>
+  </section>
+
+  <section>
+      <div class="container">
+        <h2 class="mb-3 text-center mb-4">Testimonial</h2>
+    <div class="testimonial-grid">
+ 
+<!-- Testimonial container... -->
+<!-- The `<div class="testimonial-container">` is a container element that holds 
+a testimonial. It includes two child elements: `<div class="testimonial-avatar">` 
+and `<div class="testimonial-text">`. -->
+        <div class="testimonial-container">           
+            <div class="testimonial-text">
+                <p class="testimonial-name">Sadiq</p>                
+<p>"I am very happy with your service from start till end. The way you communicated was excellent. Thanks for suggesting a good product for SIP."</p>
+            </div>
+        </div>
+        <!-- Testimonial containers... -->
+        <div class="testimonial-container">           
+            <div class="testimonial-text">
+                <p class="testimonial-name">Anitha H</p>
+                
+                <p>"I am happy and thankful for the support I have received from you people. Without you guys I can’t imagine such a fast & smooth process for my personal loan application."</p>
+            </div>
+        </div>
+        <!-- Testimonial containers... -->
+        <div class="testimonial-container">           
+            <div class="testimonial-text">
+                <p class="testimonial-name">Vasipalli Sn Reddy</p>                
+                <p>"I appreciate your service and dedication towards the customer’s support."</p>
+            </div>
+        </div>
+    </div>
+      </div>
+  </section>
+  <!-- FOOTER -->
+  <footer style="margin-top: 35px; border-top: 1px solid #e5e5e5;">
+    <div class="container" style="padding-top: 20px; padding-bottom: 20px;">
+    <p class="float-end"><a href="#">Back to top</a></p>
+    <p>&copy;2024 PM Mudra. &middot; <a href="privacy-policy.html">Privacy Policy</a> &middot; <a href="terms.html">Terms</a></p>
+    </div>
+  </footer>
+</main>
+
+<script src="https://getbootstrap.com/docs/5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    </body>
+</html>
