@@ -1,0 +1,302 @@
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
+  <head>
+     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">    
+    <title>PM Mudra | Instant Loan Service</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">   
+    <meta name="robots" content="noindex, nofollow" />
+
+<style>
+
+.container{ max-width:900px;}
+.carousel-item{ height: 18rem !important;}
+.carousel{ margin-bottom: 0 !important;}
+ body{padding-top: 0 !important;   font-family: "Inter", sans-serif;  font-optical-sizing: auto;  font-weight:400; font-style: normal; color:#414141; margin: 0;}
+.bd-placeholder-img {font-size: 1.125rem;text-anchor: middle;-webkit-user-select: none;-moz-user-select: none;user-select: none;}
+.blk{ color: #000;}
+.blue{ background: #1e0186;}
+.pink{ background: #110050;}
+.grey{ background: #edfdff; padding:60px 0px; text-align: center;}
+.aco{ background:rgb(248 249 250) !important; margin-bottom: 40px;}
+nav{ border-bottom: 1px solid #e5e5e5; margin-bottom: 40;}
+
+@media (min-width: 768px) 
+{
+.bd-placeholder-img-lg {font-size: 3.5rem;}
+.w-c-form{padding: 25px 20px;}
+}
+
+.accordion-header button{ border-radius: 14px !important;}
+.w-c-form {padding: 25px 40px;border: 1px solid rgba(0, 92, 141, 0.1); border-radius: 10px;padding-bottom: 40px;background-color: #fff;  position: relative; bottom:40px;}
+.accordion-item{margin-bottom: 20px !important;}
+.accordion-button:not(.collapsed),.accordion-button:focus {outline: none;border-color: transparent;box-shadow: none; }
+.accordion-button::after {width: 11px;height: 11px;border-radius: 100%;background-color: var(--bs-success);background-image: none !important;}
+.accordion-button.collapsed::after {background-color: var(--bs-gray-300);}
+
+.btn{height: 46px;flex-shrink: 0;border-radius: 24px;background:  #f60;box-shadow: 0 4px 8px #00000014; justify-content: center;align-items: center;color: #fff;position: relative; width: 84vw;border: 1px solid #f60;}
+.btn:hover{background:  rgb(230, 93, 1);  border: 1px solid #f60;}
+
+.stpl-lender {margin-top: 40px !important;}
+.stpl-section-3 {font-size: 24px;line-height: 36px;font-weight: 700;color: #000;margin-bottom: 48px;}
+.choose-il {background-color: #280070;border-radius: 8px;padding: 26px;margin-bottom: 28px;height: 130px;}
+.choose-il ul {list-style: none;padding-left: 0;text-align: left;display: flex;align-items: center;}
+.choose-il ul li {margin-right: 30px;}
+.mr-0, .mx-0 {margin-right: 0 !important;}
+.il-p1 {font-size: 18px;line-height: 28px;font-weight: 700;color: #fff;margin-bottom: 6px;}
+.il-p2 {font-size: 14px;line-height: 20px;font-weight: 500;color: #e6e6e6;margin-bottom: 0;}
+.stpl-section-2 {font-size: 24px;line-height: 24px;font-weight: 700;color: #000;margin-bottom: 16px;margin-top: 48px;}
+.stpl-para1 {font-size: 16px;line-height: 22px;}
+.partner-ul {list-style-type: none;display: flex;margin: 0;padding: 0;margin-top: 80px;}
+.partner-ul li {display: inline-flex;background-color: #fff;padding: 15px 30px;border: 1px solid #f1f5ff;border-radius: 8px;height: 80px;margin-right: 20px;align-items: center;width: 210px;margin-bottom: 25px;justify-content: center;align-items: center;}
+.d-none {display: none !important;}
+
+
+.form-holder {
+
+align-items: center;
+text-align: center;
+
+}
+
+.form-holder .form-content {
+position: relative;
+text-align: center;
+display: -webkit-box;
+display: -moz-box;
+display: -ms-flexbox;
+display: -webkit-flex;
+
+-webkit-justify-content: center;
+justify-content: center;
+-webkit-align-items: center;
+align-items: center;
+padding: 60px;
+}
+
+.form-content .form-items {
+    border: 1px solid #ffffff2b;
+    padding: 40px;
+    display: inline-block;
+    width: 100%;
+    min-width: 540px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    text-align: left;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+.form-content h3 {
+color: #fff;
+text-align: left;
+font-size: 28px;
+font-weight: 600;
+margin-bottom: 5px;
+}
+
+.form-content h3.form-title {
+margin-bottom: 30px;
+}
+
+.form-content p {
+color: #fff;
+text-align: left;
+font-size: 17px;
+font-weight: 300;
+line-height: 20px;
+margin-bottom: 30px;
+}
+
+
+.form-content label, .was-validated .form-check-input:invalid~.form-check-label, .was-validated .form-check-input:valid~.form-check-label{
+color: #fff;
+}
+
+.form-content input[type=text], .form-content input[type=password], .form-content input[type=email], .form-content select {
+width: 100%;
+padding: 9px 20px;
+text-align: left;
+border: 0;
+outline: 0;
+border-radius: 6px;
+background-color: #fff;
+font-size: 15px;
+font-weight: 300;
+color: #8D8D8D;
+-webkit-transition: all 0.3s ease;
+transition: all 0.3s ease;
+margin-top: 16px;
+}
+
+
+.btn-primary{
+background-color: #6C757D;
+outline: none;
+border: 0px;
+box-shadow: none;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active{
+background-color: #495056;
+outline: none !important;
+border: none !important;
+box-shadow: none;
+}
+
+.form-content textarea {
+position: static !important;
+width: 100%;
+padding: 8px 20px;
+border-radius: 6px;
+text-align: left;
+background-color: #fff;
+border: 0;
+font-size: 15px;
+font-weight: 300;
+color: #8D8D8D;
+outline: none;
+resize: none;
+height: 120px;
+-webkit-transition: none;
+transition: none;
+margin-bottom: 14px;
+}
+
+.form-content textarea:hover, .form-content textarea:focus {
+border: 0;
+background-color: #ebeff8;
+color: #8D8D8D;
+}
+
+.mv-up{
+margin-top: -9px !important;
+margin-bottom: 8px !important;
+}
+
+.invalid-feedback{
+color: #ff606e;
+}
+
+.valid-feedback{
+color: #2acc80;
+}
+
+form .btn{
+    height: 32px;
+    flex-shrink: 0;
+    border-radius: 24px;
+    background: #f60;
+    box-shadow: 0 4px 8px #00000014;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    position: relative;
+    width: 5vw;
+    border: 1px solid #f60;
+}
+
+
+</style>
+
+  </head>
+  <body>
+    <header >
+    <nav  class="navbar navbar-expand-md ">
+        <div class="container">
+            <a class="navbar-brand text-center" href="index.html"><img src="img/loan.png" ></a>        
+        </div>
+    </nav>
+    </header>
+
+    <main style="background: #110050;">
+        <div class="container" style="font-size: 14px; color: #000; ">
+            <div class="form-body" >
+                <div class="row">
+                    <div class="form-holder">
+                        <div class="form-content">
+                            <div class="form-items">
+                                <h3 class="mb-3">Contact Us</h3>
+                                <p>Fill in the data below.</p>
+                                <form class="requires-validation" novalidate>
+        
+                                    <div class="col-md-12">
+                                       <input class="form-control" type="text" name="name" placeholder="Full Name" required>
+                                       <div class="valid-feedback">Username field is valid!</div>
+                                       <div class="invalid-feedback">Username field cannot be blank!</div>
+                                    </div>
+        
+                                    <div class="col-md-12">
+                                        <input class="form-control" type="email" name="email" placeholder="E-mail Address" required>
+                                         <div class="valid-feedback">Email field is valid!</div>
+                                         <div class="invalid-feedback">Email field cannot be blank!</div>
+                                    </div>
+        
+                                   <div class="col-md-12 mb-4">
+                                        <select class="form-select mt-3" required>
+                                              <option selected disabled value="">Amout Require</option>
+                                              <option value="jweb">2,00,000</option>
+                                              <option value="sweb">3,00,000</option>
+                                              <option value="pmanager">5,00,000</option>
+                                       </select>
+                                        <div class="valid-feedback">You selected a Amout!</div>
+                                        <div class="invalid-feedback">Please select a Amout!</div>
+                                   </div>
+        
+                                   
+        
+                                <div class="form-check">
+                                  <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                                  <label class="form-check-label">I confirm that all data are correct</label>
+                                 <div class="invalid-feedback">Please confirm that the entered data are all correct!</div>
+                                </div>
+                          
+        
+                                    <div class="form-button mt-3">
+                                        <button id="submit" type="submit" class="btn btn-primary">Contact</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+    </main>
+    
+     <!-- FOOTER -->
+  <footer style="border-top: 1px solid #e5e5e5;">
+    <div class="container" style="padding-top: 20px; padding-bottom: 20px;">
+    <p class="float-end"><a href="#">Back to top</a></p>
+    <p>&copy;2024 PM Mudra. &middot; <a href="privacy-policy.html">Privacy Policy</a> &middot; <a href="terms.html">Terms</a> &middot; <a href="contact.html">Contact</a></p>
+    </div>
+  </footer>
+<script>
+    (function () {
+
+const forms = document.querySelectorAll('.requires-validation')
+Array.from(forms)
+  .forEach(function (form) {
+    form.addEventListener('submit', function (event) {
+      if (!form.checkValidity()) {
+        event.preventDefault()
+        event.stopPropagation()
+      }
+
+      form.classList.add('was-validated')
+    }, false)
+  })
+})()
+
+</script>
+
+<script src="https://getbootstrap.org/docs/5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    </body>
+</html>
